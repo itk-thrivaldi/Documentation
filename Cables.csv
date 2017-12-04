@@ -1,0 +1,36 @@
+,,,,,,,
+Cable #,From,To,Type,Color,Label at startingpoint,Label at endpoint,Comment
+1,Controll station,Gantry right foot,Cat5 ,Blue,Overvåkningskamera,,
+2,Controll station,Gantry right foot,"2x1,5 220V",White,Gantry base,,Not terminated in either end
+3,PSU station,Gantry right foot,2x1 ,Grey,Gantry base,back of cabinet,Stored at back of cabinet
+4,Controll station,Gantry Robot base,"2x1,5 220V",White,,,"Terminated in 3x shucko type F at base, single shucko type F at controll station"
+5,Controll station,Gantry Robot wrist,Firewire,black,,,
+6,Controll station,Gantry Robot base,CAT7,grey,,,
+7,Controll station,Gantry Robot base,HDMI,black,Gantry wrist,,
+8,Controll station,Gantry Robot base USB connection box,USB,grey,Gantry base of robot,,
+9,Controll station,Gantry Robot base,Cat5 ,blue,Basekamera,,Ipela
+10,Controll station,Gantry Robot wrist,Cat5 ,blue,Gantry wrist,,Wrist
+11,Controll station,Right hand door,USB,grey,Door,,
+12,Controll station,Floor robot base,USB,grey,Floor robot base,,
+13,Controll station,Floor robot base,Cat5 ,black,Floor robot base,,
+14,Controll station,Floor robot toolchange,Cat5 ,black,Floor robot toolchange,,
+15,Controll station,KRC2 Floor,Cat5 ,orange,OPC floor robot,,OPC
+16,Controll station,KRC2 Floor,Cat5 ,orange,RSIXML floor robot,,RSI XML
+17,Controll station,KRC2 Gantry,Cat5 ,yellow,OPC styreskap,,OPC 
+18,Controll station,KRC2 Gantry,Cat5 ,yellow,RSIXML styreskap,,RSI XML
+19,PSU station,Gantry robot base power supplies,,,Gantry 24V low current,,Converted to 24V - 12V - 5V at robot base
+20,PSU station,Gantry robot - terminal box at 3. axsis,,,Gantry 24V high current,,Powers toolchange profibus adapter
+21,PSU station,Floor robot base terminal box,,,Floor 24V low current,,Converted to 24V - 12V - 5V at robot base
+22,PSU station,Floor robot - terminal box at 3. axsis,,,Floor 24V high current,,Powers toolchange profibus adapter
+23,PSU station,KRC2 Floor,2x1mm,,,,Devnet power
+24,PSU station,KRC2 Gantry,2x1mm,,,,Devnet power
+25,KRC2 Floor,Floor robot - terminal box at base,DeviceNet,,,,Devicenet\CAN
+26,KRC2 Floor,Floor robot - terminal box at 3. axsis,PROFIBUS,,,,Profibus
+27,KRC2 Gantry,Gantry robot - terminal box at base,DeviceNet,,,,Deivicenet\CAN
+28,KRC2 Gantry,Gantry robot - terminal box at 3. axsis,PROFIBUS,,,,Profibus
+29,,,,,,,
+30,,,,,,,
+31,,,,,,,
+32,,,,,,,
+33,,,,,,,
+34,,,,,,,
