@@ -1,0 +1,21 @@
+Floor robot tool change pinout,,,,,
+Pin,Bus/sensor/tool,Description,Robot side wire,Cable,From
+B,Gigabit Ethernet,,White/orange,TP,Controll station
+A,PROFIBUS,Data positive,Red,PROFI,Terminal box at Axsis 3
+M,PROFIBUS,Data negative,Green,,
+C,--N/C--,--N/C--,--N/C--,,
+P,Gigabit Ethernet,,Orange,TP,Controll station
+N,Gigabit Ethernet,,White/green,,
+L,Gigabit Ethernet,,Green,,
+D,Gigabit Ethernet,,White/blue,,
+R,5 V,Power from robot base,Grey,4 wire braid shield,Terminal box at base
+V,Signal GND,Power from robot base,Yellow/green,,
+U,12 V,Power from robot base,Black,,
+K,24 V (sensor),Power from robot base,Brown,,
+E,Power GND,Power from controlstation ,Brown (split),2 wire braid shield,Terminal box at axsis 3
+S,Power GND,Power from controlstation,,,
+T,24 V (tool),Power from controlstation,Blue (split),,
+J,24 V (tool),Power from controlstation,,,
+F,Gigabit Ethernet,,Blue,TP,Controll station
+G,Gigabit Ethernet,,White/brown,,
+H,Gigabit Ethernet,,Brown,,

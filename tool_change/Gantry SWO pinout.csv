@@ -1,0 +1,21 @@
+Gantry robot tool change pinout,,,,,
+Pin,,Description,Robot side wire,Cable,From
+B,--N/C--,--N/C--,--N/C--,,
+A,PROFIBUS,Data positive,Red,PROFI,Terminal box at Axsis 3 
+M,PROFIBUS,Data negative,Green,,
+C,,Unused,Brown dashed,4 TP,USB box at robot base
+P,,Unused,Blue dashed,,
+N,,Unused,Green dashed,,
+L,,Unused,Orange dashed,,
+D,,Unused,Orange,,
+R,5 V,Power from robot base,Grey,4 wire,Terminal box at base
+V,Signal GND,Power from robot base,Yellow/green,,
+U,12 V,Power from robot base,Black,,
+K,24 V (sensor),Power from robot base,Brown,,
+E,Power GND,Power from controlstation ,1,2 wire,Terminal box at axsis 3
+S,Power GND,Power from controlstation,1,,
+T,24 V (tool),Power from controlstation,2,,
+J,24 V (tool),Power from controlstation,2,,
+F,--N/C--,--N/C--,--N/C--,,
+G,--N/C--,--N/C--,--N/C--,,
+H,--N/C--,--N/C--,--N/C--,,
